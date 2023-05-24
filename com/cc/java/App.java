@@ -15,7 +15,7 @@ public class App {
 
         output("-------------------------");
 
-        Cat cat2 = new Cat("Alonzo", "grey", 35, false);
+        Cat cat2 = new Cat("Alonzo", "grey", 35,false);
 
         output(cat2.getStringAttributes("#name"));
         output(cat2.getStringAttributes("#color"));
